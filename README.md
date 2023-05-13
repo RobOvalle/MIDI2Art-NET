@@ -1,2 +1,5 @@
 # MIDI2Art-NET
-Simple module to translate MIDI to Art-NET on the fly
+Simple tranlator from MIDI to Art-NET on the fly
+## Dependencies
+- python-rtmidi
+- stupidArtnet
