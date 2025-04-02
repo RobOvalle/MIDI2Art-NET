@@ -7,7 +7,8 @@ import atexit
 #Info Artnet
 target_ip = '2.0.0.16'		
 universe = 0 										
-packet_size = 512								
+packet_size = 512
+
 
 
 a = StupidArtnet(target_ip, universe, packet_size, 10, True, True)
@@ -58,3 +59,4 @@ if __name__ == "__main__":
         print("Waiting for input.")
         while True:
             time.sleep(1)
+
